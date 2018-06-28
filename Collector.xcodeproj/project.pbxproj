@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E94289B20E4760A00404828 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94289A20E4760A00404828 /* ItemsTableViewController.swift */; };
+		2E94289D20E4762F00404828 /* AddImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94289C20E4762F00404828 /* AddImageViewController.swift */; };
 		2EB9886420E43AFF00265B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9886320E43AFF00265B0F /* AppDelegate.swift */; };
-		2EB9886620E43AFF00265B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9886520E43AFF00265B0F /* ViewController.swift */; };
 		2EB9886920E43AFF00265B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB9886720E43AFF00265B0F /* Main.storyboard */; };
 		2EB9886C20E43AFF00265B0F /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9886A20E43AFF00265B0F /* Collector.xcdatamodeld */; };
 		2EB9886E20E43B0200265B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB9886D20E43B0200265B0F /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E94289A20E4760A00404828 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		2E94289C20E4762F00404828 /* AddImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageViewController.swift; sourceTree = "<group>"; };
 		2EB9886020E43AFF00265B0F /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB9886320E43AFF00265B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EB9886520E43AFF00265B0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EB9886820E43AFF00265B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EB9886B20E43AFF00265B0F /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		2EB9886D20E43B0200265B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				2EB9886320E43AFF00265B0F /* AppDelegate.swift */,
-				2EB9886520E43AFF00265B0F /* ViewController.swift */,
+				2E94289A20E4760A00404828 /* ItemsTableViewController.swift */,
+				2E94289C20E4762F00404828 /* AddImageViewController.swift */,
 				2EB9886720E43AFF00265B0F /* Main.storyboard */,
 				2EB9886D20E43B0200265B0F /* Assets.xcassets */,
 				2EB9886F20E43B0200265B0F /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EB9886C20E43AFF00265B0F /* Collector.xcdatamodeld in Sources */,
-				2EB9886620E43AFF00265B0F /* ViewController.swift in Sources */,
 				2EB9886420E43AFF00265B0F /* AppDelegate.swift in Sources */,
+				2E94289D20E4762F00404828 /* AddImageViewController.swift in Sources */,
+				2E94289B20E4760A00404828 /* ItemsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DLM47CZ8G;
 				INFOPLIST_FILE = Collector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pedroalonso.Collector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DLM47CZ8G;
 				INFOPLIST_FILE = Collector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pedroalonso.Collector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
